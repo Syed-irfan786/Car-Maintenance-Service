@@ -1,0 +1,16 @@
+open Xammp
+start apache and mysql
+
+open project in a code editor visual studio
+in the root directory run the below command
+
+npm init
+npm install laravel-mix --save-dev
+npm run dev
+
+
+php artisan migrate
+php artisan serve
+
+Click the link in the terminal it will open your project in a browser
+
